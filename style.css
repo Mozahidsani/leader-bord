@@ -1,243 +1,306 @@
 
-/*--------------------
-
-      section 1
----------------------*/
-
-
-
-body{
-    background-color: #F3f1ff;
-}
-
 .container{
 
-background-color: #ffffff;
-width: 870px;
-padding: 20px;
-margin-top: 20px;
-border-radius: 5px;
 
-}
-
-
-main{
-
-display: flex;
-flex-direction: column;
-/*justify-content: center;*/
-align-items: center;
-}
-
-
-.section-title{
-color:rgb(61, 61, 6);
-margin-left: 10px;
-font-size: 30px;
-margin-top: 3px;
-}
-
-
-.playars{
-
+    width: 1100px;
+    padding: 20px;
+    border-radius: 5px;
+    
+    
+    
+    }
+    
+    main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    }
+    
+    
+    
+    /*-------------------------
+            nav star
+    -------------------------*/
+    nav a{
+    
+        text-decoration: none;
+        font-size: 30px;
+        margin: 10px;
+        color: black;
+        font-weight: bold;
+        }
+        
+        
+        nav{
+         display: flex;
+         justify-content: space-between;   
+        }
+    
+        .nav-logo{
+    
+            font-size: 30px;
+            font-weight: bold;
+        }
+    
+    /*-------------------------
+            nav end
+    -------------------------*/
+    
+    
+    
+    
+    /*-------------------------
+            paft 1 star
+    -------------------------*/
+        .part1{
+    
     display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-row-gap:20px;
-
-}
-
-.playars img{
-
-  width: 56px;
-  height: 56px;
-  
-
-}
-
-
-.plyear{
-
-display: flex;
-margin: 10px;
-align-items: center;
-}
-
-.pla1{
-
-margin-left: 16px;
-
-}
-hr{
-
-    margin-bottom: 20px;
-}
-
-hr:hover{
-border: 1px solid black;
-
-}
- 
-
-/*----------section two-------
-------------section 2-------------*/
-
-
-.blog .thumbnail img{
-
-width: 177px;
-height: 117px;
-
- 
-}
-
-
-.blog{
-display: flex;
-
-}
-
-.blog-info{
-
-margin-left: 16PX;
-
-}
-
-.blog-auther{
-
-    font-size: 20px;
-}
-
-
-.blog-auther a{
-
-text-decoration: none;
-margin-left: 10px ;
-
-}
-
-
-
-.blogs{
-display: grid;
-grid-template-columns: repeat(2,1fr);
-grid-row-gap:30px;
-
-
-}
-
-
-
-
-/*------------
-
-section 333333333
-
-------------------*/
-
-
-
-.course .course-banner img{
-
-width: 224px;
-height: 104px;
-
-}
-
-.mozai{
-
-color: orangered;
-
-}
-
-
-.course-info{
-
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between;
-}
-
-
-.courses{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-grid-column-gap: 10px;
-
-}
-
-.course{
-width: 200px;
-
-}
-
-
-
-
-
-
-
-
-/*--------------------
-
-      media query
------------------------*/
-
-/*mobile screen*/
-
-
-@media only screen and (max-width:688px){
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 90px;
+    
+        }
+    
+    
+        .love-buttton{
+    
+    font-size: 17px;
+    font-weight: bold;
+    background-color: rgb(248, 61, 98);
+    padding: 10px 30px;
+    
+    border-radius: 20px;
+        }
+    
+        h1{
+    
+       font-size: 40px;     
+        }
+    
+        .mozatree{
+    
+          margin-left: 10px;  
+        }
+    
+    
+    
+    /*-------------------------
+            paft 1 end
+    -------------------------*/
+    
+    
+    
+    /*--------------------------
+          start part 2
+    ---------------------------*/
+    
+    .parts2{
+    
+    margin-top: 50px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-content: center;
+        column-gap: 30px;
+    }
+    
+    
+    .part2-pro{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    }
+    
+    
+    .one-one-1{
+    
+    
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    column-gap: 10px;
+    
+    }
+    
+    .mozai{
+    
+    color: gold;
+    
+    }
+    
+    
+    
+    .one-one-1{
+    
+    background-color: rgb(252, 243, 232);
+    margin: 5px;
+    }
+    
+    /*--------------------------
+          end part 2
+    ---------------------------*/
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    /*--------------------------
+          start part 3
+    ---------------------------*/
+    .part3{
+    
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      padding: 20px;
+        
+            }
+        
+        
+            .love-buttton2{
+        
+        font-size: 17px;
+        font-weight: bold;
+        background-color: rgb(248, 61, 98);
+        padding: 10px 30px;
+        
+        
+            }
+        
+            h1{
+        
+           font-size: 40px;     
+            }
+    
+    
+            .loremm{
+    text-align: justify;
+            }
+    
+    /*--------------------------
+          end part 3
+    ---------------------------*/
+    
+    
+    
+    
+    
+    /*--------------------------
+          start footer
+    ---------------------------*/
+    
+    footer{
+    
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    }
+    
+    .footer{
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+    }
+    
+    .footer-title{
+    
+     color: rgb(235, 217, 217);
+    font-size: 40px;
+    
+    }
+    
+    .footer-detals{
+    
+    color: rgb(248, 242, 242);
+    
+    }
+    
+    
+    .page-link{
+    display: flex;
+    flex-direction: row;
+    color: blanchedalmond;
+    
+    
+    
+    }
+    
+    .mozaC{
+    
+    margin: 30px;
+    
+    }
+    
+    
+    /*--------------------------
+          end footer
+    ---------------------------*/
+    
+    
+    
+    @media only screen and (max-width:688px){
     
     .container{
-        width: 100%;
+    
+    width: 100%;
+    
     }
-
-
-    .plyear, .blog, .course{
-flex-direction: column;
-
+    
+    h1{
+    
+        font-size: 30px;     
+         }
+     
+    .part1, .parts2, .part3{
+    
+    grid-template-columns: repeat(1,1fr);
+    
     }
-
-    .playars, .blogs, .courses{
-
-grid-template-columns: repeat(1,1fr);
-
-}
-
-
-}
-
-/*----------------
-tablet device
-
------------------*/
-
-@media only screen and (min-width: 688px) and (max-width: 992px){
-
-    .container{
-        width: 100%;
     }
-
-
-    .playars, .courses{
-
-        grid-template-columns: repeat(2,1fr);
-
-    }
-
-    .blogs{
-
+    
+    
+    @media only screen and (min-width:688px) and (max-width:992px) {
+     
+     .container{
+         width: 100%;
+        padding: 20px; 
+     }   
+    
+     
+     .part1, .part3{
+    
         grid-template-columns: repeat(1,1fr);
-
+      
+    
+     }
+    
+       
+        
+    
+        .parts2{
+    
+            grid-template-columns: repeat(2,1fr);
+    
+        }
+    
+    
     }
-
-
-
-}
-
-
-
-
-
+    
+    
+    
 
 
 
